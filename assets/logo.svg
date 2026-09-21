@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Quantium Crew monogram">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D141A"/>
+      <stop offset="55%" stop-color="#0B1216"/>
+      <stop offset="100%" stop-color="#102021"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#6DF5C8"/>
+      <stop offset="45%" stop-color="#11D29B"/>
+      <stop offset="100%" stop-color="#0E9C7E"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD27A"/>
+      <stop offset="100%" stop-color="#FF7A3D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="52%">
+      <stop offset="0%" stop-color="#00C08B" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#00C08B" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00C08B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#2BBF95" fill-opacity="0.13"/>
+    </pattern>
+  </defs>
+
+  <rect width="400" height="400" rx="88" fill="url(#bg)"/>
+  <rect width="400" height="400" rx="88" fill="url(#dots)"/>
+  <rect width="400" height="400" rx="88" fill="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="397" height="397" rx="86.5" fill="none" stroke="#1E3A36" stroke-width="3"/>
+
+  <g transform="translate(200,196)">
+    <!-- single orbit: quantum, not atomic -->
+    <ellipse rx="150" ry="58" fill="none" stroke="url(#accent)" stroke-opacity="0.30" stroke-width="5" transform="rotate(-32)"/>
+
+    <!-- the Q bowl -->
+    <circle r="100" fill="none" stroke="url(#accent)" stroke-width="30" stroke-linecap="butt"/>
+
+    <!-- the tail: short ember leg crossing the bowl, the way a Q's does -->
+    <path d="M48 48 L122 122" stroke="url(#ember)" stroke-width="30" stroke-linecap="round"/>
+
+    <!-- quantum nodes -->
+    <circle cx="-128" cy="-66" r="9" fill="#5BF0C0"/>
+    <circle cx="136" cy="44" r="7" fill="#FFB020"/>
+  </g>
+</svg>

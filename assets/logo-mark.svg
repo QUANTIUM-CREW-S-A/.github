@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Quantium Crew monogram, transparent background">
+  <defs>
+    <linearGradient id="accent" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#6DF5C8"/>
+      <stop offset="45%" stop-color="#11D29B"/>
+      <stop offset="100%" stop-color="#0E9C7E"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD27A"/>
+      <stop offset="100%" stop-color="#FF7A3D"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(200,196)">
+    <ellipse rx="150" ry="58" fill="none" stroke="url(#accent)" stroke-opacity="0.30" stroke-width="5" transform="rotate(-32)"/>
+    <circle r="100" fill="none" stroke="url(#accent)" stroke-width="30" stroke-linecap="butt"/>
+    <path d="M48 48 L122 122" stroke="url(#ember)" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="-128" cy="-66" r="9" fill="#5BF0C0"/>
+    <circle cx="136" cy="44" r="7" fill="#FFB020"/>
+  </g>
+</svg>
