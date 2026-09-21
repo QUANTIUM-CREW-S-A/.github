@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar una vulnerabilidad
+    url: https://github.com/QUANTIUM-CREW-S-A/.github/blob/main/SECURITY.md
+    about: Los problemas de seguridad se reportan en privado, nunca como issue público.
+  - name: Consulta comercial
+    url: mailto:sharkstar03@gmail.com
+    about: Propuestas de trabajo, presupuestos y soporte contratado.

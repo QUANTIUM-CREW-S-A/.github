@@ -1,0 +1,70 @@
+name: Reporte de error
+description: Informar un comportamiento incorrecto en un proyecto de Quantium Crew.
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportarlo. No incluya contraseñas, tokens ni datos personales.
+        Si se trata de una vulnerabilidad, **no abra un issue**: siga la
+        [política de seguridad](https://github.com/QUANTIUM-CREW-S-A/.github/blob/main/SECURITY.md).
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Qué ocurre, en una o dos frases.
+    validations:
+      required: true
+
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducirlo
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado obtenido
+      description: Incluya el mensaje de error o el registro, si lo hay.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versión o commit
+      placeholder: "v1.2.0 o 7f3a91c"
+
+  - type: textarea
+    id: entorno
+    attributes:
+      label: Entorno
+      placeholder: |
+        Sistema operativo:
+        Navegador o dispositivo:
+        Node / Python / Xcode:
+
+  - type: checkboxes
+    id: confirmaciones
+    attributes:
+      label: Confirmaciones
+      options:
+        - label: Busqué issues anteriores y este no está duplicado.
+          required: true
+        - label: No incluí credenciales ni datos sensibles.
+          required: true

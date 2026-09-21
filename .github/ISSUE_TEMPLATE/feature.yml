@@ -1,0 +1,49 @@
+name: Propuesta de mejora
+description: Sugerir una funcionalidad o un cambio de comportamiento.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las propuestas se valoran por el problema que resuelven, no por la solución propuesta.
+        Cuéntenos primero el problema.
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema
+      description: Qué no se puede hacer hoy, o qué cuesta más trabajo del que debería.
+    validations:
+      required: true
+
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Cómo debería comportarse el sistema.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+      description: Otras formas de resolverlo, y por qué no convencen.
+
+  - type: dropdown
+    id: alcance
+    attributes:
+      label: Alcance estimado
+      options:
+        - Ajuste menor
+        - Funcionalidad nueva
+        - Cambio estructural
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional
+      description: Capturas, bocetos o enlaces. Sin datos sensibles.
